@@ -64,6 +64,9 @@ header p {
   border-radius: 25px 25px 0 0;
 }
 
+
+
+/*** NAVIGATION **/
 .postsWrapper nav {
   padding: 5% 7%;
   display: flex;
@@ -87,7 +90,14 @@ header p {
 .postsWrapper nav button:hover {
   background-color: #D1D5DB;
   color: #212936;
+  cursor: pointer;
 }
+
+.tablinks.active {
+  background-color: #D1D5DB;
+  color: #212936;
+}
+
 
 .postsWrapper h2 {
   padding: 1% 7%;
@@ -100,7 +110,8 @@ header p {
   padding-top: 5%;
 }
 
-.tabcontent {
+.tabcontent,
+#Tab3 section {
   background-color: #fff;
   display: flex;
   padding: 2%;
@@ -108,6 +119,9 @@ header p {
   gap: 30px;
 }
 
+.tabcontent h1 {
+  color: #000;
+}
 
 
 /*** POST BOX ***/
