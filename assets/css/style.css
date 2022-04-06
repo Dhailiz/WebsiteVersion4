@@ -176,11 +176,19 @@ header p {
   border-radius: 10px 10px 0 0;
 }
 
-.w1t1 {
+
+/*** Alternative Post Image ***/
+#Tab1 article:nth-child() .postImageWindow {
   background-image: url("/assets/img/htmlbild.jpg");
 }
 
-/*** Alternative Post Image ***/
+#Tab1 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/bugs.jpg");
+}
+
+
+
+
 #Tab1 .contentBox {
   background-color: #F9FAFB;
   padding: 5%;
