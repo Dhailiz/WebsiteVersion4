@@ -135,14 +135,14 @@ header a:hover{
 }
 #niicee .table-cell:first-child {
   flex: .5;
-  border-radius: 5px 0 0 5px;
+  border-radius: 10px 0 0 10px;
   background-color: #394050;
   color: var(--hellGrau);
   line-height: 1.2rem;
   font-weight: bold;
 }
 #niicee .table-cell:last-child {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 10px 10px 0;
   background-color: var(--hellGrau);
 }
 
@@ -288,6 +288,9 @@ footer a {
   font-size: 3rem;
   text-decoration: none;
 }
+footer a:hover {
+  opacity: .5;
+}
 
 
 /*** SMARTPHONE + TABLETS ***/
@@ -312,10 +315,10 @@ footer a {
     gap: 0;
   }
   #niicee .table-cell:first-child {
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
   }
   #niicee .table-cell:last-child {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
   }
 
 
