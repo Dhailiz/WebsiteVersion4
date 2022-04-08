@@ -1,67 +1,77 @@
+
+/*** GOOGLE FONTS ***/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 
+
+/**** VARIABLES ***/
+:root {
+  --bodyFabe: #2B3544;
+  --hellGrau: #D1D5DB;
+  --buttonFarbe: #212936;
+}
+
+
+/*** BODY ***/
+body {
+  margin: 0;
+  background-color: var(--bodyFabe);
+  color: #fff;
+  font-family: 'Arial', serif;
+}
 body h1 {
   font-family: 'Archivo Black', sans-serif;
 }
 
-body {
-  margin: 0;
-  background-color: #2B3544;
-  color: #fff;
-  font-family: 'Arial', serif;
-}
-
-header a {
-  transition: all .5s ease-in-out;
-  text-decoration: none;
-  background-color: #212936;
-  color: #fff;
-  padding: 4px;
-}
-
-header a:hover{
-  text-decoration: none;
-  background-color: #D1D5DB;
-  color: #212936;
-  padding: 4px;
-}
 
 
+/*** HEADER ***/
 header {
   background-color: #000;
   padding: 15% 15%;
   text-align: left;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-
 header h1 {
   font-weight: 300;
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 30px;
 }
-
-
-
 header p {
-  color: #D1D5DB;
+  color: var(--hellGrau);
   font-size: 18px;
   line-height: 25px;
 }
+header a {
+  transition: all .5s ease-in-out;
+  text-decoration: none;
+  background-color: var(--buttonFarbe);
+  color: #fff;
+  padding: 4px;
+}
+header a:hover{
+  text-decoration: none;
+  background-color: var(--hellGrau);
+  color: var(--buttonFarbe);
+  padding: 4px;
+}
 
 
+
+
+
+
+
+/*** POSTS ***/
 #posts {
   padding: 0 5%;
 }
-
 #posts h2 {
   font-family: 'Domine', serif;
 }
@@ -73,6 +83,9 @@ header p {
   background-color: #394050;
   border-radius: 25px 25px 0 0;
 }
+.postsWrapper h2 {
+  padding: 1% 7%;
+}
 
 
 
@@ -80,6 +93,7 @@ header p {
 .postsWrapper nav {
   padding: 5% 7%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -89,28 +103,29 @@ header p {
 }
 
 .postsWrapper nav button {
-  color: #D1D5DB;
+  color: var(--hellGrau);
   text-decoration: none;
-  background-color: #212936;
+  background-color: var(--buttonFarbe);
   border-radius: 25px;
   padding: 15px;
   margin-right: 2.5%;
 }
 
 .postsWrapper nav button:hover {
-  background-color: #D1D5DB;
-  color: #212936;
+  background-color: var(--hellGrau);
+  color: var(--buttonFarbe);
   cursor: pointer;
 }
-
 .tablinks.active {
-  background-color: #D1D5DB;
-  color: #212936;
+  background-color: var(--hellGrau);
+  color: var(--buttonFarbe);
 }
 
 
-.postsWrapper h2 {
-  padding: 1% 7%;
+
+/*** BETRIEB ***/
+#niicee .table-row {
+  display: flex;
 }
 
 
@@ -121,7 +136,7 @@ header p {
 }
 
 .tabcontent,
-#Tab3 section {
+.tabcontent section {
   background-color: #fff;
   display: flex;
   padding: 2%;
@@ -130,7 +145,8 @@ header p {
 }
 
 .tabcontent h1 {
-  color: #000;
+  color: #555;
+  margin-left: 20px;
 }
 
 
@@ -150,7 +166,7 @@ header p {
 
 .postBox a {
   text-decoration: none;
-  background-color: #212936;
+  background-color: var(--buttonFarbe);
   color: #fff;
   padding: 4px;
   margin-left: 10%;
@@ -158,8 +174,8 @@ header p {
 
 .postBox a:hover {
   text-decoration: none;
-  background-color: #D1D5DB;
-  color: #212936;
+  background-color: var(--hellGrau);
+  color: var(--buttonFarbe);
   padding: 4px;
 }
 
@@ -182,7 +198,7 @@ header p {
 
 .postText a {
   text-decoration: none;
-  background-color: #212936;
+  background-color: var(--buttonFarbe);
   color: #fff;
   padding: 4px;
   margin-left: 0;
@@ -190,8 +206,8 @@ header p {
 
 .postText a:hover {
   text-decoration: none;
-  background-color: #D1D5DB;
-  color: #212936;
+  background-color: var(--hellGrau);
+  color: var(--buttonFarbe);
   padding: 4px;
 }
 
@@ -213,6 +229,7 @@ header p {
 
 #Tab1 article:nth-child(2) .postImageWindow {
   background-image: url("/assets/img/hilfsmitteln.PNG");
+  background-position-x: left;
 }
 
 #Tab2 article:nth-child(1) .postImageWindow {
@@ -224,21 +241,21 @@ header p {
 }
 
 
+
 /*** CONTENT-BOX ***/
 .contentBox {
   padding: 7%;
   color: #000;
   padding: 5%;
 }
-
 #Tab1.contentBox {
   background-color: #F9FAFB;
 }
-
 #niicee.contentBox,
 #fazit.contentBox {
   background-color: #F3F4F6;
 }
+
 
 
 
@@ -252,3 +269,33 @@ footer a {
   font-size: 3rem;
   text-decoration: none;
 }
+
+
+/*** SMARTPHONE + TABLETS ***/
+@media only screen and (max-width: 800px) {
+  header {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding: 10%;
+    flex-wrap: nowrap;
+  }
+  header h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .postsWrapper nav button {
+    margin-top: 3.5%;
+    flex: 1;
+  }
+  .contentBox {
+    padding: 10%;
+  }
+}
+
+/*** DESKTOP ***/
+@media only screen and (min-width: 992px) {
+  header {
+    flex-wrap: nowrap;
+  }
+
+} 
