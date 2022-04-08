@@ -126,7 +126,26 @@ header a:hover{
 /*** BETRIEB ***/
 #niicee .table-row {
   display: flex;
+  gap: .7rem;
+  margin-bottom: .7rem;
 }
+#niicee .table-cell {
+  flex: 1;
+  padding: 3%;
+}
+#niicee .table-cell:first-child {
+  flex: .5;
+  border-radius: 5px 0 0 5px;
+  background-color: #394050;
+  color: var(--hellGrau);
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+#niicee .table-cell:last-child {
+  border-radius: 0 5px 5px 0;
+  background-color: var(--hellGrau);
+}
+
 
 
 
@@ -283,6 +302,24 @@ footer a {
     font-size: 30px;
     line-height: 30px;
   }
+
+  #niicee .table-cell {
+    padding: 5%;
+  }
+
+  #niicee .table-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  #niicee .table-cell:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+  #niicee .table-cell:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+
+
   .postsWrapper nav button {
     margin-top: 3.5%;
     flex: 1;
