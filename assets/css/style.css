@@ -18,8 +18,19 @@ body {
   font-family: 'Arial', serif;
 }
 
-a {
+header a {
   transition: all .5s ease-in-out;
+  text-decoration: none;
+  background-color: #212936;
+  color: #fff;
+  padding: 4px;
+}
+
+header a:hover{
+  text-decoration: none;
+  background-color: #D1D5DB;
+  color: #212936;
+  padding: 4px;
 }
 
 
@@ -60,7 +71,6 @@ header p {
 /*** POSTS WRAPPER **/
 .postsWrapper {
   background-color: #394050;
-  /** padding: 2% 5%; **/
   border-radius: 25px 25px 0 0;
 }
 
@@ -202,9 +212,16 @@ header p {
 }
 
 #Tab1 article:nth-child(2) .postImageWindow {
-  background-image: url("/assets/img/bugs.jpg");
+  background-image: url("/assets/img/hilfsmitteln.PNG");
 }
 
+#Tab2 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/New-ideas.jpg");
+}
+
+#Tab2 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/layout-design.jpg");
+}
 
 
 /*** CONTENT-BOX ***/
