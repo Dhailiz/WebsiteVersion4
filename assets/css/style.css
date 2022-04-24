@@ -245,7 +245,7 @@ header a:hover{
 }
 
 #Tab1 article:nth-child(1) .postImageWindow {
-  background-image: url("/assets/img/htmlbild.jpg");
+  background-image: url("/assets/img/niicee\ bild.jpg");
 }
 
 #Tab1 article:nth-child(2) .postImageWindow {
@@ -307,6 +307,14 @@ header a:hover{
 
 #Tab7 article:nth-child(2) .postImageWindow {
   background-image: url("/assets/img/no-code-platforms.webp");
+}
+
+#Tab8 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/letzte\ änderungen.jpg");
+}
+
+#Tab8 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/responsive.webp");
 }
 
 
