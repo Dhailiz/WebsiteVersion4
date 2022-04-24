@@ -274,7 +274,7 @@ header a:hover{
 }
 
 #Tab4 article:nth-child(1) .postImageWindow {
-  background-image: url("/assets/img/");
+  background-image: url("/assets/img/Documentation.png");
 }
 
 #Tab4 article:nth-child(2) .postImageWindow {
@@ -294,9 +294,20 @@ header a:hover{
 }
 
 #Tab6 article:nth-child(1) .postImageWindow {
-  background-image: url("/assets/img/jsmemes.PNG");
+  background-image: url("/assets/img/javascript-lernen.png");
 }
 
+#Tab6 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/json.png");
+}
+
+#Tab7 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/jsprobleme.jpg");
+}
+
+#Tab7 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/no-code-platforms.webp");
+}
 
 
 /*** CONTENT-BOX ***/
