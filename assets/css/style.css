@@ -317,6 +317,10 @@ header a:hover{
   background-image: url("/assets/img/responsive.webp");
 }
 
+#Fazit .postImageWindow {
+  background-image: url("/assets/img/fazit.jpg");
+}
+
 
 /*** CONTENT-BOX ***/
 .contentBox {
@@ -332,7 +336,10 @@ header a:hover{
   background-color: #F3F4F6;
 }
 
-
+/** FAZIT **/
+#Fazit p{
+  color: #000;
+}
 
 
 /*** FOOTER ***/
