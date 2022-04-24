@@ -124,6 +124,8 @@ header a:hover{
 
 
 /*** BETRIEB ***/
+
+
 #niicee .table-row {
   display: flex;
   gap: .7rem;
@@ -256,7 +258,43 @@ header a:hover{
 }
 
 #Tab2 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/htmlkurs.jpg");
+}
+
+#Tab2 article:nth-child(3) .postImageWindow {
   background-image: url("/assets/img/layout-design.jpg");
+}
+
+#Tab3 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/bugs.jpg");
+}
+
+#Tab3 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/fortschritte.jpg");
+}
+
+#Tab4 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/");
+}
+
+#Tab4 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/bugs.jpg");
+}
+
+#Tab4 article:nth-child(3) .postImageWindow {
+  background-image: url("/assets/img/ux\ design\ bild.jpg");
+}
+
+#Tab5 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/css-frameworks.jpg");
+}
+
+#Tab5 article:nth-child(2) .postImageWindow {
+  background-image: url("/assets/img/css\ ideen.jpg");
+}
+
+#Tab6 article:nth-child(1) .postImageWindow {
+  background-image: url("/assets/img/jsmemes.PNG");
 }
 
 
@@ -290,6 +328,12 @@ footer a {
 }
 footer a:hover {
   opacity: .5;
+}
+
+footer img {
+  width: 120px;
+  margin-left: 1.5%;
+  border-radius: 15px;
 }
 
 
